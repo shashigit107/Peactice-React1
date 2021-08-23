@@ -1,25 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react"
+// import Basic from "./ClassComponent/Basic"
+// import Calclass from "./Components/CalClass"
+// import Calculator from "./Components/Calculator"
+// import SecondCompOfGDSFP from "./ClassComponent/SecondCompOfGDSFP"
+import ComponentDidUpdate from "./Updating/ComponentDidUpdate"
 
+// import Formlist from "./Components/FormList"
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+   return(
+       <div>
+           
+           <ComponentDidUpdate/>
+       </div>
+   )
 }
-
 export default App;
